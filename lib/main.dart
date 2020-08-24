@@ -9,7 +9,6 @@ const String urld =
 void main() async
 {
   WidgetsFlutterBinding.ensureInitialized();
-  //await MongoStitchClient.initializeApp(urld);
   final Directory _directory = await path.getApplicationDocumentsDirectory();
   final String _hivePath = _directory.path;
   //debugPrint(_hivePath);
